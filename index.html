@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- popins font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,800;1,300&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/navbar_footer.css">
+    <style>
+        :root {
+            --primary: rgb(55, 205, 255);
+            --primary: #60c2da;
+        }
+
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./assets/logo.png" alt="">
+        </div>
+
+        <div class="links">
+            <a href="#" class="active">
+                <span>Home</span>
+            </a>
+            <a href="#">
+                <span>About Us</span>
+            </a>
+            <a href="#">
+                <span>Courses</span>
+            </a>
+            <a href="#">
+                <span>Contact Us</span>
+            </a>
+        </div>
+
+        <div class="user">
+            <span>Tine Thomas</span>
+            <img src="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/short/linkedin-profile-picture-maker/dummy_image/thumb/004.webp" alt="">
+        </div>
+    </nav>
+
+
+    <!-- home -->
+    <section class="container home-container">
+        <div class="home-left">
+            <h1 style="word-spacing: 5px;">
+                We Help To <span style="color: rgb(55, 205, 255);">Build</span>
+                <br>
+                Your Dream
+            </h1>
+            <p style="font-weight: 300;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br>
+                Assumenda quisquam sit tenetur laborum natus, ducimus hic?
+            </p>
+
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="Search here...">
+                    <button>
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="home-right">
+            <!-- ellipse -->
+            <img class="ellipse" src="./assets/ellipse.png" alt="">
+            <!-- student image -->
+            <img class="student-home" src="./assets//student-home.png" alt="">
+        </div>
+    </section>
+
+    <!-- popular courses -->
+    <section class="container courses-container">
+        <h2>Our Popular Courses</h2>
+
+        <div class="courses-cards-wrapper">
+
+            <article class="course-card">
+                <img src="./assets/uiux.png" alt="">
+
+                <div class="details">
+                    <h3>UI/UX Designing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </p>
+                    <button>Apply Now</button>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="./assets/uiux.png" alt="">
+
+                <div class="details">
+                    <h3>UI/UX Designing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </p>
+                    <button>Apply Now</button>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="./assets/uiux.png" alt="">
+
+                <div class="details">
+                    <h3>UI/UX Designing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </p>
+                    <button>Apply Now</button>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="./assets/uiux.png" alt="">
+
+                <div class="details">
+                    <h3>UI/UX Designing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </p>
+                    <button>Apply Now</button>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="next-prev">
+            <p>
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </p>
+            <p>
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </p>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="container about-container">
+        <h2>About Us</h2>
+        <div class="about">
+            <figure>
+                <img src="./assets/meeting.png" alt="">
+            </figure>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque maxime dignissimos animi et
+                    explicabo iure, quis eveniet veniam! Quibusdam maiores veniam excepturi consequuntur, tempora,
+                    magnam ipsam, quisquam nihil dignissimos tempore labore laboriosam. Ullam odit, natus nobis fugit
+                    nisi accusamus, deserunt explicabo dolore amet deleniti dolor asperiores fugiat necessitatibus non
+                    pariatur. Aliquid neque obcaecati rerum, labore dolorum dignissimos itaque iusto tenetur doloribus,
+                    sit ut debitis quibusdam quas! Officia molestiae eos, saepe maiores nemo hic asperiores quidem enim.
+                    Facilis accusamus deserunt odit ratione dolorem aliquam. Ipsam quibusdam nisi veniam eos impedit
+                    corporis, porro nostrum amet explicabo aliquam odit officia, nihil deserunt aperiam quia, rem culpa.
+                    Ex earum adipisci possimus eum atque fugiat at totam! Molestiae deleniti quam eveniet voluptas!
+                    Consequuntur officiis fugit sint, rerum tempora repudiandae. Eaque perspiciatis in obcaecati omnis
+                    officiis ex nihil rerum ullam culpa commodi temporibus est quidem exercitationem, natus deleniti
+                    optio distinctio, dolore doloribus molestiae maxime labore.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- vision mission and goals -->
+    <section class="container vision-container">
+        <h2>Vision, Mission, & Goals</h2>
+
+        <div class="v-m-g-cards">
+            <article>
+                <h4>Vission</h4>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est atque illo quod cumque nesciunt
+                    recusandae sunt exercitationem quia similique! Optio veritatis consequatur fugit unde soluta.
+                </p>
+            </article>
+            <article>
+                <h4>Mission</h4>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est atque illo quod cumque nesciunt
+                    recusandae sunt exercitationem quia similique! Optio veritatis consequatur fugit unde soluta.
+                </p>
+            </article>
+            <article>
+                <h4>Goals</h4>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est atque illo quod cumque nesciunt
+                    recusandae sunt exercitationem quia similique! Optio veritatis consequatur fugit unde soluta.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="container service-container">
+        <h2>Our Services</h2>
+
+        <div class="services">
+
+            <article>
+                <img src="./assets/classroom.png" alt="">
+                <h4>Classroom Training</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta pariatur at dignissimos deleniti
+                    eaque minus.</p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="./assets/career.png" alt="">
+                <h4>Classroom Training</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta pariatur at dignissimos deleniti
+                    eaque minus.</p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="./assets/automation.png" alt="">
+                <h4>Classroom Training</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta pariatur at dignissimos deleniti
+                    eaque minus.</p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="./assets/corporate.png" alt="">
+                <h4>Classroom Training</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta pariatur at dignissimos deleniti
+                    eaque minus.</p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="./assets/internship.png" alt="">
+                <h4>Classroom Training</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta pariatur at dignissimos deleniti
+                    eaque minus.</p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <img src="./assets/leadership.png" alt="">
+                <h4>Classroom Training</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta pariatur at dignissimos deleniti
+                    eaque minus.</p>
+                <a href="#">Read More</a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- client reviews -->
+    <section class="container review-container">
+        <h2>Client Reviews</h2>
+        <div>
+
+            <article>
+                <figure>
+                    <img src="./assets/client.png" alt="">
+                    <figcaption>
+                        <h3>Tina James</h3>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In doloremque cum provident iure sit
+                    blanditiis corrupti impedit fugit laboriosam at, eaque adipisci eligendi qui architecto earum magnam
+                    nesciunt dolores consequuntur.</p>
+            </article>
+
+            <p class="review-handle">
+                <span></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </p>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <div class="footer-col">
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Blogs</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="footer-col">
+                <img src="./assets/logo.png" alt="">
+                <h3>Company Name</h3>
+                <p>Company Location</p>
+                <p>Company Mail Address</p>
+                <p>Company Number</p>
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <p class="copyright">@2023 Company Name | All Rights Reserved </p>
+    </footer>
+
+</body>
+
+</html>
